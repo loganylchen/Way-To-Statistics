@@ -24,4 +24,3 @@
     * [Principal component analysis](points-of-significance/Principal-component-analysis.md)
     * [Ensemble methods: bagging and random forests](points-of-significance/Ensemble-methods-bagging-and-random-forests.md)
 
-
