@@ -1,0 +1,27 @@
+# Summary
+
+* [Introduction](README.md)
+* [Nature-points-of-significant](points-of-significance/README.md)
+    * [Importance of being uncertain](points-of-significance/Importance-of-being-uncertain.md)
+    * [Error Bars](points-of-significance/Error-Bars.md)
+    * [Significance, P values and t-tests](points-of-significance/Significance-P-values-and-t-tests.md)
+    * [Power and sample size](points-of-significance/Power-and-sample-size.md)
+    * [Visualizing samples with box plots](points-of-significance/Visualizing-samples-with-box-plots.md)
+    * [Comparing samples—part I](points-of-significance/Comparing-samples—part-I.md)
+    * [Comparing samples—part II](points-of-significance/Comparing-samples—part-II.md)
+    * [Nonparametric tests](points-of-significance/Nonparametric-tests.md)
+    * [Designing comparative experiments](points-of-significance/Designing-comparative-experiments.md)
+    * [Analysis of variance and blocking](points-of-significance/Analysis-of-variance-and-blocking.md)
+    * [Replication](points-of-significance/Replication.md)
+    * [Nested designs](points-of-significance/Nested-designs.md)
+    * [Two-factor designs](points-of-significance/Two-factor-designs.md)
+    * [Sources of variation](points-of-significance/Sources-of-variation.md)
+    * [Split plot design](points-of-significance/Split-plot-design.md)
+    * [Bayes’ theorem](points-of-significance/Bayes-theorem.md)
+    * [Bayesian statistics](points-of-significance/Bayesian-statistics.md)
+    * [Sampling distributions and the bootstrap](points-of-significance/Sampling-distributions-and-the-bootstrap.md)
+    * [Interpreting P values](points-of-significance/Interpreting-P-values.md)
+    * [Principal component analysis](points-of-significance/Principal-component-analysis.md)
+    * [Ensemble methods: bagging and random forests](points-of-significance/Ensemble-methods-bagging-and-random-forests.md)
+
+
