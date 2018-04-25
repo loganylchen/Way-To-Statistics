@@ -26,21 +26,42 @@
 为了方便大家理解，我从网上找了维基百科上对于这个游戏规则的描述：这个游戏的玩法是：参赛者会看见三扇关闭了的门，其中一扇的后面有一辆汽车或者是奖品，选中后面有车的那扇门就可以赢得该汽车或奖品，而另外两扇门后面则各藏有一只山羊或者是后面没有任何东西。当参赛者选定了一扇门，但未去开启它的时候，知道门后情形的节目主持人会开启剩下两扇门的其中一扇，露出其中一只山羊。主持人其后会问参赛者要不要换另一扇仍然关上的门。问题是：换另一扇门会否增加参赛者赢得汽车的机会率？
 
 
->答案是，选择换。
+>答案是，选择换。but you would be in good company if you thought otherwise.
+
+上面的英文的确不知道该怎么翻译，咨询了两位[@Nana7926](https://github.com/Nana7926)和[@Susuqu](https://github.com/Susuqu)，分别给出了下列两种供参考
+
+- “但是如果你不这么想的话 你会在一个好公司” from [@Nana7926](https://github.com/Nana7926)
+- “但如果你不这样想，你会有好的公司” from [@Susuqu](https://github.com/Susuqu)
+
+最初我的想法也是其实没有什么差别，换与不换没有差别的。
+
+>当这个答案发布在《Parada》杂志的时候，数以千计的读者（很多都是博士）反馈这个答案是错误的。评论千奇百怪，从“你错了，但是从积极的一面看，如果这些博士都是错的，那国家岂不是要陷入一些大的麻烦了” 到 “我必须承认我质疑你，除非我五年级的数学课能证明你是对的”
+
+这一段其实完完全全是按照原文翻译，可是读起来总觉得太奇怪了，这说的是什么啊。暂时先这样写着，具体部分后续在慢慢斟酌。
+
+>`The Points of Significance`系列就是让你工作中的与基础统计相关的理解能不被最初“感觉”出来的理解所左右。目的也很明确，就是处理“几乎半数医学杂志上发表的论文在用到统计方法的时候都是错误的”这样的状况。我们会以实际且令人信服的方式来进行介绍。我们主要聚焦在基础概念，实际技巧及常见的错误。
+
+>每篇介绍都会有一个excel表格来展示计算式，主要展现数据及结果，不会用公式来迷惑大家。
+
+这点非常的棒，过去课本中的统计大部分都是以公式及少量数据说明，一般很难了解到过程。正好有excel的支持，可以很清晰的看出结果随着数据的变化而产生的变化。
+
+>统计可以大致分为两类：描述和推断。
+
+描述现在所有数据的特性，推断新的数据可能的特性。
+
+>第一个（描述）通过一些测量，例如`均值`、`标准差`来概括数据集的主要特征。第二个（推断）则是通过观察数据推断更大数据集的特性。而支撑他们的理论就是抽样及估计，抽样就是收集数据，而估计就是量化推断出的结果的不确定性。
+
+>为了探讨`抽样`，我们需要首先介绍一个`总体`的概念，`总体`表示我们做推断的事物的集合。`群体`中的某一个实验变量的所有可能值的频率柱状图就是`总体分布`，如[^chap1-1]中的a图。我们也一贯的对于推断总体的`均值`和`标准差`感兴趣。`均值`和`标准差`分表描述了`总体`的位置还有展开的宽度，如[^chap1-1]中的b图。
+
+![chap1-1](images/chap1-1.png)
+
+>`均值`就是计算所有值的`算术平均数`，当有`极值`时，会产生错误的推断。相比之下`中值`就是对于位置描述更为鲁棒的一个概念。特别是对于一些`偏分布`及其他不规则的形状，`中值`更加合适。
 
 
- but you would be in good company if you thought otherwise. When a solution was published in Parade magazine, thousands of readers (many with PhDs) wrote in that the answer was wrong2. Comments varied from “You made a mistake, but look at the positive side. If all those PhDs were wrong, the country would be in some very serious trouble” to “I must admit I doubted you until my fifth grade math class proved you right”2.
+>`标准差`计算是根据每个值距离`均值`的距离的平方进行计算的。有的时候可以用`方差`（`标准差`的平方），因为他的特性更容易用数学公式来表示。
 
+>`标准差`并不是一个直觉的测量值，
 
-
-
-
- It also tells us how error in input values propagates through calculations. The practical application of this theoretical framework is to associate uncertainty to the outcome of experiments and to assign confidence levels to statements that generalize beyond observations.
-
- Although many fundamental concepts in statistics can be understood intuitively, as natural pattern-seekers we must recognize the limits of our intuition when thinking about chance and probability. 
-
-The Monty Hall problem is a classic example of how the wrong answer can appear far too quickly and too credibly before our eyes. 
-A contestant is given a choice of three doors, only one leading to a prize. After selecting a door (e.g., door 1), the host opens one of the other two doors that does not lead to a prize (e.g., door 2) and gives the contestant the option to switch their pick of doors (e.g., door 3). The vexing question is whether it is in the contestant’s best interest to switch. The answer is yes, but you would be in good company if you thought otherwise. When a solution was published in Parade magazine, thousands of readers (many with PhDs) wrote in that the answer was wrong2. Comments varied from “You made a mistake, but look at the positive side. If all those PhDs were wrong, the country would be in some very serious trouble” to “I must admit I doubted you until my fifth grade math class proved you right”2.
-The Points of Significance column will help you move beyond an
-intuitive understanding of fundamental statistics relevant to your work. Its aim will be to address the observation that “approximate- ly half the articles published in medical journals that use statistical methods use them incorrectly”3. Our presentation will be practical and cogent, with focus on foundational concepts, practical tips and common misconceptions4. A spreadsheet will often accompany each column to demonstrate the calculations (Supplementary Table 1). We will not exhaust you with mathematics. Statistics can be broadly divided into two categories: descriptive and
-inferential. The first summarizes the main features of a data set with measures such as the mean and standard deviation (s.d.). The second generalizes from observed data to the world at large. Underpinning both are the concepts of sampling and estimation, which address the process of collecting data and quantifying the uncertainty in these generalizations
+The s.d. is not an intuitive measure, and rules of thumb help us in its interpretation. For example, for a normal distribution, 39%, 68%, 95% and 99.7% of values fall within ± 0.5
+s , ± 1 , ± 2 and ± 3 . These s s s
+cutoffs do not apply to populations that are not approximately normal, whose
