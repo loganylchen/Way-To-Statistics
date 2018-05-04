@@ -14,6 +14,7 @@
 
 
 >尽管统计中的很多基本原理可以被很直观的理解，但在真实情况下，特别是涉及到“可能”及“概率”的时候，我们需要摒弃我们的直觉印象。
+【FYI】虽然统计中的许多基本概念可以被很直观地理解，但作为对自然模式的探寻者，我们必须在考虑“可能性”和“概率”时认识到我们所谓的“直觉”（或者说对事物已有的认知）是有局限性的。
 
 `Although many fundamental concepts in statistics can be understood intuitively, as natural pattern-seekers we must recognize the limits of our intuition when thinking about chance and probability.`我觉得这一部分我必须贴上原文，因为感觉上怎么翻译都是怪怪的。
 
@@ -73,6 +74,7 @@
 >即便`总体`的取值是一个很狭窄的取值范围，比如只是0到30，如[^chap1-2]中的a图。因为`抽样`的随机性，所以我们对`总体`的形状的估计并不能很准确。`样本`表示的是从`总体`中抽取的数据集合，如[^chap1-2]中的图b，使用数据的数目`n`来描述。一般使用`X`来表示，还会使用下角标来表示抽样的次序，如$X_1$。样本数越大，`抽样`的`样本`就越接近`总体`。
 
 >为了保持有效性，`样本`必须能够表示`总体`。
+【FYI】个人觉得这样翻译很合适，因为其实就是想说明我们在总体中所选择的样本，必须可以代表总体的特征，否则抽取的样本的特征无法有效地代表总体特征。
 
 ` To maintain validity, the sample must be representative of the population.`这个也是翻译及理解起来有些疑问的地方。
 
