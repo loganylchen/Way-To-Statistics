@@ -22,8 +22,14 @@
 
 再次放上原文，感觉又是不太好翻译的。
 
+>在此，我们利用一个简单的例子来展示`误差线`的差异。我们从一个`正态分布`中以相同的`样本容量`进行`抽样`，所获的值的均值就是我们用来展示的数据。
 
+这个真是的很绕。英语不好真是累。同样放上原文。`Here we illustrate error bar differences with examples based on a simplified situation in which the values are means of independent (unrelated) samples of the same size and drawn from normal populations with the same spread.`
 
+>我们使用`2-sample t-test`计算`样本`的`均值`的差异的显著性而且以近似`P value`来展示结果。尽管展示准确`P value`应该更好，但是为了方便，显著性一般都取`阈值`为P=0.05。我们会在后面更加详细的讨论`P value`和`t-test`。
+ 
+
+意思很好理解，但是要说出来，真的感觉越来越难。
 
 先把用到的图上传到图床
 
