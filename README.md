@@ -9,3 +9,6 @@
 从2018年4月21日开始，每天都会坚持更新github，如果没有程序的更新，可能会选择进行本Project的翻译，及整理。
 
 
+## TIPS
+
+Every time I need done this first！
